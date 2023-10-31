@@ -1,7 +1,7 @@
 locals {
   source_url        = "git::https://github.com/maratkaz/terraform-modules.git"
   source_version    = "v0.2.1"
-  deployment_prefix = "main-dev"
+  deployment_prefix = "main-dev-marat"
   aws_region        = "us-east-1"
   eks_cluster_name  = "${local.deployment_prefix}-eks-cluster"
   default_tags = {
