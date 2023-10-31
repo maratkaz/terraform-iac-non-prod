@@ -48,5 +48,6 @@ inputs = {
   multi_az                     = false
   deletion_protection          = false
   add_extra_cidr_blocks        = false
+  my_password                  = "test_pwd"
   extra_cidr_blocks            = [] # Example: ["10.242.2.0/24", "10.246.110.0/24"]
 }

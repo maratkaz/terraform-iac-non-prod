@@ -1,5 +1,5 @@
 locals {
-  source_url        = "git::https://github.com/maratkaz/terraform-modules.git"
+  source_url        = "git@github.com:maratkaz/terraform-modules.git"
   source_version    = "v0.2.1"
   deployment_prefix = "main-dev-marat"
   aws_region        = "us-east-1"
